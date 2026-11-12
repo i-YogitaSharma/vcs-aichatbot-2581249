@@ -1,0 +1,141 @@
+/* Background */
+.stApp{
+    background: linear-gradient(135deg,#0f172a,#111827,#000);
+}
+
+/* Main title */
+h1{
+    color:white !important;
+    text-align:center;
+    font-weight:700;
+}
+
+/* Caption */
+p{
+    color:#cbd5e1;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"]{
+    background:#0b1120;
+    border-right:1px solid rgba(255,255,255,.1);
+}
+
+/* Chat bubble */
+[data-testid="stChatMessage"]{
+
+    border-radius:18px;
+
+    padding:15px;
+
+    margin-bottom:18px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(12px);
+}
+
+/* Chat input */
+[data-testid="stChatInput"]{
+
+    border-radius:15px;
+}
+
+/* =========================
+Header
+========================= */
+
+.header{
+
+    text-align:center;
+
+    padding:20px;
+
+    margin-bottom:25px;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(15px);
+
+}
+
+.header h1{
+
+    font-size:48px;
+
+    color:white;
+
+}
+
+.header p{
+
+    color:#94a3b8;
+
+    font-size:18px;
+
+}
+.stButton button{
+
+    width:100%;
+
+    border-radius:12px;
+
+    height:45px;
+
+    border:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.stButton button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* ==========================
+Welcome Screen
+========================== */
+
+.welcome{
+
+    text-align:center;
+
+    padding:40px;
+
+    margin:25px 0;
+
+    border-radius:20px;
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(12px);
+
+}
+
+.welcome h2{
+
+    color:white;
+
+    font-size:34px;
+
+}
+
+.welcome p{
+
+    color:#cbd5e1;
+
+    font-size:18px;
+
+}
